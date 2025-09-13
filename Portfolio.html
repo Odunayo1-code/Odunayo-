@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odunayo| Frontend Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/facaacbf00.js" crossorigin="anonymous"></script>
+    
+    </head>
+<body>
+<div id="header"></div>
+<div class="container">
+<nav>
+<h1><span class="highlight-o">O</span>dunayo.</h1>
+<ul id="sidemenu">
+    <li><a href="#header">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#portfolio">Portfolio</a></li>
+    <li><a href="#contact">Contact</a></li> 
+    <i class="fa-jelly-fill fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+</ul>
+<i class="fa-solid fa-bars" onclick="openmenu()"></i>
+</nav>
+
+<section class="hero">
+     <div class="header-text">
+        <h1>Hi, I'm <span>Odunayo</span></h1>
+        <p>Frontend Developer</p>
+    </div>
+        <img src="images/background.png" alt="Odunayo">
+ 
+</section>
+<!-----about---->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/User.png" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About me</h1>
+                <p>
+                    I'm a Frontend Developer with a passion for building clean, responsive, and accessible web applications.<br>
+                    With experience in technologies like HTML, CSS, JavaScript, and modern frameworks such as React and Vue.js. <br>
+                    My focus is on creating fast, accessible, and well-structured code while working closely with designers and backend developers to bring projects to life.<br>
+                    I care about user experience, performance, and writing code that's scalable and maintainable.<br>
+                    I’m also familiar with Git and modern frontend tools like Tailwind CSS.<br>
+                    I'm constantly learning and staying-up-to-date with the latest frontend trends, tools, and best practices to keep improving my craft.
+                </p>
+                <div class="tab-tittles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Frontend developer</span><br>Building website web application</li>
+                        <li><span>Web Developement</span><br>Web app Development</li>
+                        <li><span>UI/UX</span><br>Designing Web/App interface</li>
+                        <li><span>Python</span><br>Building and maintaining the server-side logic of web application</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2025</span><br>Frontend developer Internship at HNG Tech</li>
+                        <li><span>2024-2024</span><br>Frontend developer at Simplilearn training Institute</li>
+                        <li><span>2024-2024</span><br>Backend (Python) at Simplilearn training Institute</li>
+                        <li><span>2022-2023</span><br>Software engineer ALX Africa</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2025-2025</span><br>Frontend developer<br>Internship at HNG Tech (ongoing)</li>
+                        <li><span>2019-2024</span><br>BSc Degree in Psychology<br>University of Ibadan</li>
+                        <li><span>2024-2024</span><br>Frontend developer<br>Simplilearn training Institute</li>
+                        <li><span>2024-2024</span><br>Backend (Python) <br>Simplilearn training Institute</li>
+                        <li><span>2012-2016</span><br>Computer Science Education <br>FCE Akoka Yaba Lagos</li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!-------services----- -->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+           
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Frontend Developement</h2>
+                <p>I create modern, interactive user interfaces using HTML, CSS, JavaScript, and React.<br>
+                     I specialize in building responsive websites that provide seamless user experiences 
+                     across all devices,<br> from mobile phones to desktop computers. Implemented modern styling frameworks such as Tailwind CSS and Bootstrap, 
+                     ensuring consistent and appealing design across all devices</p>
+                     <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p>I build complete web solutions from concept to deployment.Whether you need a business website,e-commerce platform, 
+                    or custom web application,<br> I deliver fast, secure, and scalable websites that help grow your business.I develop robust backend solutions and web applications using Python. From API development 
+                    and database management to automation scripts and data processing,create efficient server-side solutions that power your web applications.</p>
+                     <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-alt"></i>
+                <h2>UI/UX Design</h2>
+                <p>I design and develop user-friendly interfaces that look great and work intuitively.<br>
+                     I focus on creating engaging user experiences through thoughtful design, <br>
+                     smooth animations,and clean layouts that convert visitors into customers.</p>
+                     <a href="#">Learn more</a>
+            </div>
+            
+        </div>
+    </div>
+</div>
+<!-------portfolio----- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work img1.png">
+                <div class="layer">
+                    <h3>Social coding platform</h3>
+                  <p>This is a website or app where programmers can work together on code projects,
+                     share their work, and connect with other developers.</p>
+                     <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work img2.png">
+                <div class="layer">
+                    <h3>Social coding platform</h3>
+                  <p>This is a website or app where programmers can work together on code projects,
+                     share their work, and connect with other developers.</p>
+                     <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work img3.PNG">
+                <div class="layer">
+                    <h3>Social coding platform</h3>
+                  <p>This is a website or app where programmers can work together on code projects,
+                     share their work, and connect with other developers.</p>
+                     <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!-------contact----- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+             <h1 class="sub-title">Contact Me</h1>
+             <p><i class="fa-solid fa-paper-plane"></i>odunayoemmyb@gmail.com</p>
+             <p><i class="fa-solid fa-phone"></i>08165636328</p>
+             <div class="social-icons">
+                <a href="https://github.com/Odunayo1-code/Odunayo-"><i class="fa-brands fa-square-github"></i></a>
+                <a href="https://www.linkedin.com/in/odunayo-ajayi-76b58b246/"><i class="fa-brands fa-square-linkedin"></i></a>
+                <a href="https://www.twitter.com/odunayo_emma"><i class="fa-brands fa-square-x-twitter"></i></a>
+                <a href="https://www.instagram.com/its.joycey"><i class="fa-brands fa-square-instagram"></i></a>
+             </div>
+             <a href="images/my new resume template (1).pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @Odunayo. A frontend Developer<i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+
+   <script>
+   
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname) {
+// Remove active-link class from all tab links (removes underlines)
+for(tablink of tablinks) {
+tablink.classList.remove("active-link");
+}
+
+// Remove active-tab class from all tab contents (hides all content)
+for(tabcontent of tabcontents) {
+tabcontent.classList.remove("active-tab");
+}
+
+// Add active-link class to the clicked tab (adds underline)
+event.currentTarget.classList.add("active-link");
+
+// Show the corresponding content
+document.getElementById(tabname).classList.add("active-tab");
+}
+
+   </script> 
+
+   <script>
+
+var sidemenu = document.getElementById("sidemenu");
+
+function openmenu(){
+    sidemenu.style.right = "0";
+}
+function closemenu(){
+    sidemenu.style.right = "-200px";
+}
+
+   </script>
+   <script>
+    const scriptURL = '<https://script.google.com/macros/s/AKfycby6kazdhw0r72gTvFqlawgESxwlXlNtBveOBNhcrtR8ZT2BzXXgWpWsaElQsR4Ji9a3/exec>'
+        const form = document.forms['submit-to-google-sheet']
+
+        form.addEventListner('submit', e => {
+        e.preventDefault();
+        fetch(scriptURL, {
+            method: 'POST', 
+            body: new FormData (form)
+        })
+        .then (response => {
+            console.log('success!', response);
+        })
+        .catch (error => {
+             console.error('error', error.message);
+
+        });
+    });
+   </script>
+</body>
+</html>
